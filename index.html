@@ -41,7 +41,7 @@
             <div class="container">
                 <div class="hero-text">
                     <h3>Hi, There!</h3>
-                    <h1>I am <span>Marcel Penney</span></h1>
+                    <h1>I am <span class="input"></span></h1>
                     <p>I create clean, creative, and responsive web designs developed from top to bottom.</p>
                     <div class="social">
                         <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
@@ -58,5 +58,17 @@
             </div>
         </div>
     </section>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings:["Marcel Penney.", "Web Developer.", "UX Designer.", "Content Creator."],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop: true
+        })
+    </script>
 </body>
 </html>
